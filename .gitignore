@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Model files - DO NOT upload
+*.pth
+*.pkl
+*.h5
+*.ckpt
+*.pb
+
+# Dataset files - DO NOT upload
+*.csv
+!results/**/*.csv
+uk_traffic_prediction_ready_2020_2024.csv
+
+# Logs
+*.log
+logs/
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Results - ALLOW these to be uploaded
+!results/**/*.png
+!results/**/*.jpg
+!results/**/*.jpeg
+!results/**/*.txt
+!results/**/*.json
+!results/**/*.npz

@@ -1,0 +1,36 @@
+{
+  "data_path": "../uk_traffic_prediction_ready_2020_2024.csv",
+  
+  "seq_len": 6,
+  "pred_len": 3,
+  
+  "num_nodes": 0,
+  "input_dim": 0,
+  "output_dim": 0,
+  "auxiliary_dim": 0,
+  "hidden_dim": 32,
+  "gradient_checkpointing": true,
+  
+  "num_spatial_layers": 2,
+  "num_temporal_layers": 2,
+  "num_heads": 2,
+  "dropout": 0.2,
+  
+  "graph_method": "knn",
+  "graph_k": 8,
+  "graph_distance_threshold": 50,
+  
+  "batch_size": 1,
+  "num_epochs": 100,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  
+  "loss_alpha": 0.7,
+  "loss_beta": 0.2,
+  "loss_gamma": 0.1,
+  
+  "patience": 15,
+  "min_delta": 0.0001,
+  
+  "seed": 42
+}

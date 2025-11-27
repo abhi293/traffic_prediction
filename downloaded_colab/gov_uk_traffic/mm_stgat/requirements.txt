@@ -1,0 +1,25 @@
+# MM-STGAT Traffic Prediction Requirements
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# DirectML support (for AMD GPUs on Windows)
+torch-directml>=0.2.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Logging and Monitoring
+tensorboard>=2.13.0
+
+# Utilities
+tqdm>=4.65.0
